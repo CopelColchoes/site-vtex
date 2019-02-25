@@ -1,0 +1,255 @@
+.modal-saida .orverlay-modal-home {
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: 999999
+}
+.modal-saida .__content {
+    position: fixed;
+    top: 0;
+    background: #ffffff;
+    width: 850px;
+    height: auto;
+    left: 50%;
+    margin-left: -425px;
+    z-index: 999999;
+    margin-top: 2%
+}
+.modal-saida .__content .__header {
+    background: #002b62;
+    height: 80px;
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    font-size: 25px;
+    position: relative
+}
+.modal-saida .__content .__header:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #002b62
+}
+.modal-saida .__content .__header h2 {
+    line-height: 25px;
+    padding-top: 13px;
+    font-family: comfortaaregular
+}
+.modal-saida .__content .__header .btn-close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
+    cursor: pointer
+}
+.modal-saida .__content .prateleira {
+    text-align: center
+}
+.modal-saida .__content .prateleira h2 {
+    display: none
+}
+.modal-saida .__content .prateleira>ul>li {
+    position: relative !important;
+    display: inline-block;
+    width: 280px;
+    padding: 0 20px;
+    margin: 0;
+    min-height: 250px;
+    text-align: left
+}
+.modal-saida .__content .prateleira>ul>li .ct {
+    float: left;
+    width: 232px;
+    min-height: 250px;
+    border: 0;
+    position: relative;
+    padding: 15px
+}
+.modal-saida .__content .prateleira>ul>li .ct img {
+    width: 100%;
+    height: auto
+}
+.modal-saida .__content .prateleira>ul>li .flags .pronta-entrega {
+    right: 0
+}
+.modal-saida .__content .prateleira>ul>li .btn-comprar {
+    display: block !important;
+    background: green;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    width: 87%;
+    padding: 7px 0;
+    clear: both;
+    margin: 12px 0;
+    font-size: 15px;
+    border-radius: 7px;
+    text-transform: uppercase
+}
+.modal-saida .__content .prateleira>ul>li .btn-comprar:after {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    background: url(/arquivos/icon-seta-btn-comprar-modal.png?v=2) no-repeat;
+    width: 9px;
+    height: 15px;
+    margin-top: -4px
+}
+.modal-saida .__content .__footer {
+    display: block;
+    background: #002b62;
+    height: auto;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 0
+}
+.modal-saida .__content .__footer p {
+    color: #ffffff;
+    font-weight: bold;
+    font-family: Conforta, sans-serif
+}
+.modal-saida .__content .__footer p a {
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 20px
+}
+@media screen and (max-width: 1366px) {
+    .modal-saida .orverlay-modal-home {
+        background: rgba(0, 0, 0, 0.7);
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        right: 0;
+        z-index: 999999
+    }
+    .modal-saida .__content {
+        position: fixed;
+        top: 0;
+        background: #ffffff;
+        width: 715px;
+        height: auto;
+        left: 50%;
+        margin-left: -358px;
+        z-index: 999999;
+        margin-top: 10px
+    }
+    .modal-saida .__content .__header {
+        background: #002b62;
+        height: 75px;
+        width: 100%;
+        color: #ffffff;
+        text-align: center;
+        font-size: 19px;
+        position: relative
+    }
+    .modal-saida .__content .__header:after {
+        content: "";
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 10px;
+        width: 0;
+        height: 0;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-top: 15px solid #002b62
+    }
+    .modal-saida .__content .__header h2 {
+        line-height: 25px;
+        padding-top: 13px;
+        font-family: comfortaaregular
+    }
+    .modal-saida .__content .__header .btn-close {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        font-size: 20px;
+        cursor: pointer
+    }
+    .modal-saida .__content .prateleira {
+        text-align: center
+    }
+    .modal-saida .__content .prateleira h2 {
+        display: none
+    }
+    .modal-saida .__content .prateleira>ul>li {
+        position: relative !important;
+        display: inline-block;
+        width: 230px;
+        padding: 0 20px;
+        margin: 0;
+        min-height: 250px;
+        text-align: left
+    }
+    .modal-saida .__content .prateleira>ul>li .ct {
+        float: left;
+        width: 190px;
+        min-height: 250px;
+        border: 0;
+        position: relative;
+        padding: 15px
+    }
+    .modal-saida .__content .prateleira>ul>li .ct img {
+        width: 100%;
+        height: auto
+    }
+    .modal-saida .__content .prateleira>ul>li .flags .pronta-entrega {
+        right: 10px
+    }
+    .modal-saida .__content .prateleira>ul>li .btn-comprar {
+        display: block !important;
+        background: green;
+        text-align: center;
+        color: #fff;
+        position: relative;
+        width: 87%;
+        padding: 7px 0;
+        clear: both;
+        margin: 12px 0;
+        font-size: 15px;
+        border-radius: 7px;
+        text-transform: uppercase
+    }
+    .modal-saida .__content .prateleira>ul>li .btn-comprar:after {
+        content: '';
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 10px;
+        background: url(/arquivos/icon-seta-btn-comprar-modal.png?v=2) no-repeat;
+        width: 9px;
+        height: 15px;
+        margin-top: -4px
+    }
+    .modal-saida .__content .prateleira .productSpec {
+        height: 58px;
+        overflow: hidden
+    }
+    .modal-saida .__content .__footer {
+        display: block;
+        background: #002b62;
+        height: auto;
+        text-align: center;
+        font-size: 15px;
+        padding: 10px 0
+    }
+    .modal-saida .__content .__footer p {
+        color: #ffffff;
+        font-weight: bold;
+        font-family: Conforta, sans-serif
+    }
+    .modal-saida .__content .__footer p a {
+        vertical-align: middle;
+        display: inline-block;
+        margin-left: 20px
+    }
+}
+/*# sourceMappingURL=an1-modal-saida.css.map */
