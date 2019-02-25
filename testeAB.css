@@ -1,0 +1,139 @@
+body.produto.teste .prod-description.cloned, body.produto.teste .prod-header {
+    border-bottom: 1px solid #e4effb;
+    padding-bottom: 15px
+}
+body.produto.teste .prod-description {
+    padding: 15px 0;
+    border-bottom: 1px solid #e4effb;
+    margin-bottom: 15px
+}
+body.produto.teste .prod-description.cloned {
+    display: block!important;
+    padding-top: 15px!important;
+    margin-bottom: 15px
+}
+body.produto.teste .prod-header h1 .productName {
+    font-size: 25px
+}
+body.produto.teste .prod-header span.skuReference {
+    float: none
+}
+body.produto.teste .prod-header .rating {
+    display: inline-block;
+    margin-left: 15px
+}
+body.produto.teste .prod-header .rating #yv-review-quickreview .yv-bootstrap {
+    float: none!important
+}
+body.produto.teste #mainContentSide .buy-button {
+    width: 100%;
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 9px 0;
+    font-weight: 700;
+    position: relative
+}
+body.produto.teste #mainContentSide .buy-button:after {
+    content: "";
+    display: inline-block;
+    float: none;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: url(/arquivos/btn-arrow-right.png) center no-repeat;
+    background-size: contain;
+    margin-left: 10px;
+    margin-top: 2px
+}
+body.produto.teste #mainContentSide .buy-button:before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+    left: 50%;
+    margin-left: -60px;
+    background: url(/arquivos/btn-security-seal.png) center no-repeat;
+    background-size: contain;
+    bottom: -35px
+}
+body.produto.teste #mainContentSide .seletorSku .skuList {
+    border-bottom: 0;
+    padding: 0 0 35px
+}
+body.produto.teste #mainContentSide .seletorSku .skuList .nomeSku {
+    margin-bottom: 0!important
+}
+body.produto.teste #mainContentSide .seletorSku .skuList .preco .avista, body.produto.teste #mainContentSide .seletorSku .skuList .preco .valor-de, body.produto.teste #mainContentSide .seletorSku .skuList .preco .valor-dividido, body.produto.teste #mainContentSide .seletorSku .skuList .preco .valor-por {
+    text-transform: uppercase
+}
+body.produto.teste #mainContentSide .seletorSku .skuList .preco .valor-dividido {
+    font-size: 28px;
+    font-weight: 800;
+    display: block;
+    width: 350px
+}
+body.produto.teste #mainContentSide .seletorSku .skuList .preco .avista {
+    padding: 0;
+    margin: 2px 0 10px;
+    color: #002b62;
+    font-size: 12px
+}
+body.produto.teste #mainContentSide .seletorSku .skuList .preco .valor-economia {
+    display: inline-block;
+    background: #fcd800;
+    color: #000;
+    font-weight: 800;
+    padding: 5px 10px;
+    font-size: 11px;
+    margin-bottom: 8px
+}
+body.produto.teste #mainContentSide #cond-parcelamento {
+    border: 1px solid #db194d;
+    padding: 0;
+    margin-top: 15px
+}
+body.produto.teste #mainContentSide #cond-parcelamento .aplicaparcela {
+    display: none
+}
+body.produto.teste #mainContentSide #cond-parcelamento h4 {
+    color: #fff;
+    font-size: 16px;
+    padding: 20px 0 10px 35px;
+    background: #db194d;
+    width: 100vw;
+    margin-left: -20px;
+    margin-top: -10px;
+    border: 1px solid #db194d;
+}
+body.produto.teste #mainContentSide #cond-parcelamento ul li {
+    color: #000000;
+    border-bottom: 1px solid #db194d;
+    padding: 10px 15px
+}
+body.produto.teste #mainContentSide #cond-parcelamento ul li:last-child {
+    border-bottom: 0
+}
+body.produto.teste #mainContentSide #cond-parcelamento ul li div {
+    width: 45%;
+    margin-right: 1%;
+    display: inline-block
+}
+body.produto.teste #mainContentSide #cond-parcelamento ul li div:last-child {
+    width: 50%
+}
+body.produto.teste #mainContentSide .socialnetwork {
+    float: none;
+    display: inline
+}
+body.produto.teste #mainContentSide .socialnetwork #productRefer, body.produto.teste #mainContentSide .socialnetwork span {
+    margin-top: -3px
+}
+body.produto.teste #mainContentSide .socialnetwork:before {
+    content: "Compartilhe:";
+    font-size: 18px;
+    color: #f6911d;
+    display: inline-block;
+    float: left
+}
